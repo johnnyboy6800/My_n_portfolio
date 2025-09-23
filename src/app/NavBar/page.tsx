@@ -4,16 +4,17 @@ import { Interface } from "readline";
 
 interface NavBarProps {
     OnhabilidadesClick: () => void;
+    OnHomeClick: () => void;
 }
 
-export default function NavBar({ OnhabilidadesClick }: NavBarProps) {
+export default function NavBar({ OnhabilidadesClick, OnHomeClick }: NavBarProps) {
    
         
     return (
         <nav id="nav-bar">
             <ul id="nav-list">
-                <li><a href="#" onClick={(e) => {e.preventDefault; OnhabilidadesClick}}>Home</a></li>
-                <Link href={"/hard_skills"}>Habilidades</Link>
+                <li><a href="#" onClick={(e) => {e.preventDefault(); OnHomeClick()}}>Home</a></li>
+                <li><a  href="#" onClick={(e) => {e.preventDefault(); OnhabilidadesClick()}}>Habilidades</a></li>
                 <li>Projetos</li>
                 
             </ul>
