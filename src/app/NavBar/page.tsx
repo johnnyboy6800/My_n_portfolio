@@ -5,7 +5,7 @@ import  NavBarProps  from "./NavbarParams";
 
 
 
-export default function NavBar({ OnhabilidadesClick, OnHomeClick, OnProjetosClick, OnContatoClick }: NavBarProps) {
+export  function NavBar({ OnhabilidadesClick, OnHomeClick, OnProjetosClick, OnContatoClick }: NavBarProps) {
    
         
     return (
