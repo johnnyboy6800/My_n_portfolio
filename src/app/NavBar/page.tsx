@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Interface } from "readline";
+'use client'
 
 
 interface NavBarProps {
