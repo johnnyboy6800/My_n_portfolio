@@ -27,12 +27,11 @@ export default function Home(){
         <div id="intro">
           <div id="nome-div">
             <h1 id="nome">João Lucas</h1>
-            
           </div>
           <div id="profissão-div">
             <h1 id="profissão">Software Enginner</h1>
           </div>
-          <TechIcons/>
+          <TechIcons />
           <p className="pt-10">Sou um estudante de engenharia de software focado no desenvolvimento back-end.</p>
         </div>
         </div>
