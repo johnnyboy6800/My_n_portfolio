@@ -5,14 +5,19 @@ import HardSkills from "./hard_skills/page"
 import TechIcons from "./hard_skills/skillsIcons"
 import NavBar from "./NavBar/page"
 import Projetos from "./projetos/page"
+import Contact from "./contact-me/page"
 export default function Home(){
   const EspecialidadesRef = useRef<HTMLDivElement>(null)
   const HardSkillsRef = useRef<HTMLDivElement>(null) 
   const HomeRef  = useRef<HTMLDivElement>(null)
-    return (
+  const ProjetosRef = useRef<HTMLDivElement>(null)
+  const ContatoRef = useRef<HTMLDivElement>(null)  
+  return (
     <div>
       <NavBar OnhabilidadesClick = {() => HardSkillsRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnHomeClick={() => HomeRef.current?.scrollIntoView({behavior: 'smooth'})}
+              OnProjetosClick={() => ProjetosRef.current?.scrollIntoView({behavior: 'smooth'})}
+              OnContatoClick={() => ContatoRef.current?.scrollIntoView({behavior: 'smooth'})}
         />
       
       <section ref={HomeRef}>
@@ -38,8 +43,11 @@ export default function Home(){
       <section ref={HardSkillsRef}>
           <HardSkills/>
       </section>
-      <section>
+      <section ref={ProjetosRef}>
         <Projetos/>
+      </section>
+      <section ref={ContatoRef}>
+        <Contact/>
       </section>
       </div>
   )
