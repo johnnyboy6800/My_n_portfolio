@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   distDir: 'dist',
-  basePath: isProd ?  '/My_n_portfolio' : ''
+  basePath: isProd ?  '/My_n_portfolio/' : ''
 };
 
 export default nextConfig;
