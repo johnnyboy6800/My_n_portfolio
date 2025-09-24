@@ -1,11 +1,11 @@
 'use client'
 
-import  NavBarProps  from "./NavbarParams";
+import  {NavBarProps}  from "./NavbarParams";
 
 
 
 
-export  function NavBar({ OnhabilidadesClick, OnHomeClick, OnProjetosClick, OnContatoClick }: NavBarProps) {
+export default function NavBar({ OnhabilidadesClick, OnHomeClick, OnProjetosClick, OnContatoClick }: NavBarProps) {
    
         
     return (

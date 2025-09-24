@@ -3,7 +3,7 @@ import { useRef } from "react"
 import Especialidades from "./especialidades/page"
 import HardSkills from "./hard_skills/page"
 import TechIcons from "./hard_skills/skillsIcons"
-import {NavBar} from "./NavBar/page"
+import NavBar from "./NavBar/page"
 import Projetos from "./projetos/page"
 import Contact from "./contact-me/page"
 export default function Home(){
