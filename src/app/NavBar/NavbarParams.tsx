@@ -1,4 +1,4 @@
-export interface NavBarProps {
+export default interface NavBarProps {
     OnhabilidadesClick: () => void;
     OnHomeClick: () => void;
     OnProjetosClick: () => void;

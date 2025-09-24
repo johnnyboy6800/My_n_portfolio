@@ -1,6 +1,6 @@
 'use client'
 
-import { NavBarProps } from "./NavbarParams";
+import  NavBarProps  from "./NavbarParams";
 
 
 
