@@ -9,15 +9,15 @@ export default function HardSkills() {
           <h2 className="text-2xl font-bold pb-6">Linguagens de Programação</h2>
           <ul className="space-y-4">
             <li className="flex items-center gap-3 hover:scale-105 transition-transform">
-              <img src="/javaicon.png" alt="Java" className="w-10 h-10" />
+              <img src="${basePath}/javaicon.png" alt="Java" className="w-10 h-10" />
               <span className="text-lg">Java</span>
             </li>
             <li className="flex items-center gap-3 hover:scale-105 transition-transform">
-              <img src="/pythonicon.webp" alt="Python" className="w-10 h-10" />
+              <img src="${basePath}/pythonicon.webp" alt="Python" className="w-10 h-10" />
               <span className="text-lg">Python</span>
             </li>
             <li className="flex items-center gap-3 hover:scale-105 transition-transform">
-              <img src="/JavaScript-logo.png" alt="JavaScript" className="w-10 h-10" />
+              <img src="${basePath}/JavaScript-logo.png" alt="JavaScript" className="w-10 h-10" />
               <span className="text-lg">JavaScript</span>
             </li>
           </ul>
