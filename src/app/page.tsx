@@ -21,9 +21,10 @@ export default function Home(){
         />
       
       <section ref={HomeRef}>
-       
+        <div className="pic_div">
+        <img id="minha-foto" src="/e24e916a-c0b0-43c4-8cf8-6ae07f1dc5f7.png"></img>
+        </div>
         <div id="home">
-        <img id="minha-foto" src="/ChatGPT Image 19 de ago. de 2025, 18_37_38.png"></img>
         <div id="intro">
           <div id="nome-div">
             <h1 id="nome">João Lucas</h1>
