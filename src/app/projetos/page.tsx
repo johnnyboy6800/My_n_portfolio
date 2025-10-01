@@ -3,7 +3,7 @@ import { faPhp } from '@fortawesome/free-brands-svg-icons';
 
 export default function Projetos() {
   return (
-    <section className="py-16 px-6">
+    <section className="py-16 px-6 pt-30">
       {/* Título principal */}
       <h1 className="text-4xl font-bold text-center mb-10">Projetos</h1>
 
@@ -69,7 +69,7 @@ export default function Projetos() {
 
       {/* Seção Front-end */}
       <div className="mt-16 text-center">
-        <h2 className="text-2xl font-semibold mb-6">Front-end</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-center">Front-end</h2>
         <img
           className="mx-auto w-60 h-60 object-contain opacity-70"
           src="/projects/moresoon.png"

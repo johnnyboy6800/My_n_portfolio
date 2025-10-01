@@ -1,13 +1,13 @@
 'use client'
 import { useRef } from "react"
-import Especialidades from "./especialidades/page"
 import HardSkills from "./hard_skills/page"
 import TechIcons from "./hard_skills/skillsIcons"
 import NavBar from "./NavBar/NavBar"
 import Projetos from "./projetos/page"
 import Contact from "./contact-me/page"
+import Especialidades from "./especialidades/page"
 export default function Home(){
-  const EspecialidadesRef = useRef<HTMLDivElement>(null)
+  const OnSobreRef = useRef<HTMLDivElement>(null)
   const HardSkillsRef = useRef<HTMLDivElement>(null) 
   const HomeRef  = useRef<HTMLDivElement>(null)
   const ProjetosRef = useRef<HTMLDivElement>(null)
@@ -18,6 +18,7 @@ export default function Home(){
               OnHomeClick={() => HomeRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnProjetosClick={() => ProjetosRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnContatoClick={() => ContatoRef.current?.scrollIntoView({behavior: 'smooth'})}
+              OnSobreClick={() => OnSobreRef.current?.scrollIntoView({behavior: 'smooth'})}
         />
       
       <section ref={HomeRef}>
@@ -37,10 +38,10 @@ export default function Home(){
         </div>
         </div>
         </section>
-      <section ref={EspecialidadesRef}>
+      <section className="pt-10" ref={OnSobreRef}>
           <Especialidades/>
       </section>
-      <section className="pt-15" ref={HardSkillsRef}>
+      <section className="pt-10" ref={HardSkillsRef}>
           <HardSkills/>
       </section>
       <section className="pt-15" ref={ProjetosRef}>
