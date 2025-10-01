@@ -46,6 +46,7 @@
 }
 
 #skills{
+  padding-top: 5%;
   width: auto;
   display: grid;
   justify-content: center;
@@ -137,8 +138,10 @@ li {
 #habilidades-text {
   font-size: 45px;
   font-weight: bold;
+  
 }
 #habilidades-div{
+  padding-top: 5px;
   display: grid;
   margin: 10%;
   justify-content: center;

@@ -40,10 +40,10 @@ export default function Home(){
       <section ref={EspecialidadesRef}>
           <Especialidades/>
       </section>
-      <section ref={HardSkillsRef}>
+      <section className="pt-15" ref={HardSkillsRef}>
           <HardSkills/>
       </section>
-      <section ref={ProjetosRef}>
+      <section className="pt-15" ref={ProjetosRef}>
         <Projetos/>
       </section>
       <section ref={ContatoRef}>
