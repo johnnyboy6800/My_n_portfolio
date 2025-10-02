@@ -196,6 +196,9 @@ p {
   .contact-list{
     padding-top: 5%;
   }
+  #minha-foto{
+    width: 70px;
+  }
 
 }
 
