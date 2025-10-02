@@ -65,6 +65,32 @@ export default function Projetos() {
             />
           </div>
         </li>
+         {/* Card 3 */}
+        <li className="bg-gray-800 rounded-2xl shadow-lg w-80 p-4 flex flex-col items-center text-center hover:scale-105 transition-transform">
+          <img
+            src="/projects/Captura de tela de 2025-10-02 17-43-05.png"
+            alt="Projeto FastApi"
+            className="rounded-xl mb-4"
+          />
+          <h3 className="text-xl font-bold text-white">Biblioteca API</h3>
+          <p className="text-gray-300 mt-2">
+            API Rest com gerenciamento de Livros e usuários. Modelo Crud tanto para Usuários quanto para livros, também conta com relacionamentos entre usuários e os livros cadastrados.
+          </p>
+          <a
+            href="https://github.com/johnnyboy6800/laravel-blog-api"
+            target="_blank"
+            className="mt-4 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+          >
+            Ver código
+          </a>
+          <div className="flex justify-center gap-3 mt-4">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+              alt="Laravel"
+              className="w-10 h-10"
+            />
+          </div>
+        </li>
       </ul>
 
       {/* Seção Front-end */}
