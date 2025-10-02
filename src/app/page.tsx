@@ -21,7 +21,7 @@ export default function Home(){
               OnSobreClick={() => OnSobreRef.current?.scrollIntoView({behavior: 'smooth'})}
         />
       
-      <section ref={HomeRef}>
+      <section className="pt-15" ref={HomeRef}>
         <div className="pic_div">
         <img id="minha-foto" src="/e24e916a-c0b0-43c4-8cf8-6ae07f1dc5f7.png"></img>
         </div>
