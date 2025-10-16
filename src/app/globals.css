@@ -74,10 +74,11 @@
   border-radius: 100%;
 }
 #nav-bar {
+  
   z-index: 2;
   width: 100%;
   background-color: white;
-  height: fit-content;
+  height: 8%;
   color: black;
   position: fixed;
 }
@@ -140,6 +141,16 @@ li {
   font-weight: bold;
   
 }
+@keyframes appear{
+  from {opacity: 0; scale: 0.5;}
+  to {opacity:1; scale: 1;}
+}
+.fade-section{
+  padding-top: 10%;
+  animation: appear  linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
 #habilidades-div{
   padding-top: 5px;
   display: grid;
@@ -147,8 +158,6 @@ li {
   justify-content: center;
   margin-top: 10%;
   color: black;
-  
- 
 }
 p {
   font-size: large;
@@ -227,4 +236,7 @@ p {
   width: 50%;
   border-width: 2px;
 
+}
+.main-div{
+ background: radial-gradient(circle at top left, #ffffff, #f0f0f0, #e8ebee);
 }

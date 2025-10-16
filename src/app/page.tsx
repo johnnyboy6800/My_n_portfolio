@@ -12,8 +12,10 @@ export default function Home(){
   const HomeRef  = useRef<HTMLDivElement>(null)
   const ProjetosRef = useRef<HTMLDivElement>(null)
   const ContatoRef = useRef<HTMLDivElement>(null)  
+
+
   return (
-    <div>
+    <div className="main-div">
       <NavBar OnhabilidadesClick = {() => HardSkillsRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnHomeClick={() => HomeRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnProjetosClick={() => ProjetosRef.current?.scrollIntoView({behavior: 'smooth'})}
@@ -21,7 +23,7 @@ export default function Home(){
               OnSobreClick={() => OnSobreRef.current?.scrollIntoView({behavior: 'smooth'})}
         />
       
-      <section className="pt-15" ref={HomeRef}>
+      <section   ref={HomeRef}>
         <div className="pic_div">
         <img id="minha-foto" src="/e24e916a-c0b0-43c4-8cf8-6ae07f1dc5f7.png"></img>
         </div>
@@ -38,13 +40,13 @@ export default function Home(){
         </div>
         </div>
         </section>
-      <section className="pt-10" ref={OnSobreRef}>
+      <section className="fade-section" ref={OnSobreRef}>
           <Especialidades/>
       </section>
-      <section className="pt-10" ref={HardSkillsRef}>
+      <section className="fade-section" ref={HardSkillsRef}>
           <HardSkills/>
       </section>
-      <section className="pt-15" ref={ProjetosRef}>
+      <section className="fade-section" ref={ProjetosRef}>
         <Projetos/>
       </section>
       <section ref={ContatoRef}>
