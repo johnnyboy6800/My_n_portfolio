@@ -16,13 +16,13 @@ export default function Home(){
 
   return (
     <div className="main-div">
-      <NavBar OnhabilidadesClick = {() => HardSkillsRef.current?.scrollIntoView({behavior: 'smooth'})}
+      {/* <NavBar OnhabilidadesClick = {() => HardSkillsRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnHomeClick={() => HomeRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnProjetosClick={() => ProjetosRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnContatoClick={() => ContatoRef.current?.scrollIntoView({behavior: 'smooth'})}
               OnSobreClick={() => OnSobreRef.current?.scrollIntoView({behavior: 'smooth'})}
         />
-      
+       */}
       <section   ref={HomeRef}>
         <div className="pic_div">
         <img id="minha-foto" src="/e24e916a-c0b0-43c4-8cf8-6ae07f1dc5f7.png"></img>
